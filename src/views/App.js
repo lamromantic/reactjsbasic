@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.scss';
-import MyComp from './MyComp';
+import MyComp from './example/MyComp';
 
 function App() {
   return (
@@ -10,14 +10,6 @@ function App() {
         <p>
           Hello World
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
         <MyComp />
       </header>
     </div>
